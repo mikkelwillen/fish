@@ -1,8 +1,8 @@
 function syncdoom --description 'pulls and pushes my doom directory'
-  git -C ~/.doom.d pull
-  git -C ~/.doom.d add ~/.doom.d/
-  git -C ~/.doom.d commit -m "sync"
-  git -C ~/.doom.d push
+  git -C ~/.config/doom pull
+  git -C ~/.config/doom add ~/.config/doom
+  git -C ~/.config/doom commit -m "sync"
+  git -C ~/.config/doom push
 
 end
 
